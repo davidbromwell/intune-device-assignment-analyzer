@@ -10,6 +10,7 @@ This sanitized, read-only engineering sample contains no tenant IDs, company pre
 - Microsoft.Graph.Authentication for Graph-based tools
 - An Intune role that permits the requested read operations
 - Consent for the delegated scopes listed below
+- `IntuneToolkit.Common.psm1` (the shared module), expected at `..\Shared\IntuneToolkit.Common.psm1` relative to this script's own folder. Keep the toolkit's folder structure intact when copying scripts elsewhere.
 
 ## Delegated permissions
 
